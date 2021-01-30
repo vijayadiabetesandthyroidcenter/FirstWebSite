@@ -487,7 +487,7 @@ a:focus {
 }
 
 .text-color {
-  color: #223a66;
+  font-size: small;
 }
 
 .text-color-2 {
@@ -1376,7 +1376,7 @@ a:focus {
 }
 
 .footer .copyright a {
-  font-weight: 600;
+  font-size: small;
 }
 
 .lh-35 {
