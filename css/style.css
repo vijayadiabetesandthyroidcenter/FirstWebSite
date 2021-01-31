@@ -1415,6 +1415,7 @@ a:focus {
 .footer-contact-block span {
   font-weight: 400;
   color: #6F8BA4;
+  font-size: small;
 }
 
 .footer-contact-block i {
