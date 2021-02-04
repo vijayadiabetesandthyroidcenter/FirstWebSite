@@ -534,7 +534,7 @@ a:focus {
 
 @media (max-width: 992px) {
   .banner {
-    background: #fff !important;
+    /* background: #fff !important; */
   }
 }
 
@@ -564,6 +564,7 @@ a:focus {
   position: absolute;
   content: "";
   right: 10px;
+  left: 10px;
   bottom: 20px;
   background: #223a66;
   padding: 48px;
@@ -601,7 +602,7 @@ a:focus {
 }
 
 .feature-item {
-  flex-basis: 33.33%;
+  flex-basis: 50%;
   margin: 0px 10px;
   padding: 40px 30px;
   background-color: #fff;
@@ -914,6 +915,7 @@ a:focus {
   padding: 30px;
   margin: 0px 4px;
   margin-bottom: 30px;
+  height: 400px;
 }
 
 .testimonial-block.style-2 .testimonial-thumb {
@@ -1012,12 +1014,15 @@ a:focus {
 
 .google-map {
   position: relative;
-  width: 50%;
+  width: 100%;
 }
 
 .google-map #map {
   width: 100%;
-  height: 500px;
+  height: 350px;
+  margin: 5px 5px;
+  padding: 5px 5px;
+  border-radius: 15px 15px 15px 15px;
 }
 
 .mt-90 {
