@@ -169,28 +169,11 @@
 		google.maps.event.addDomListener(window, 'load', initialize);
 	}
 
-	// Counter
-
-	$('.counter-stat span').counterUp({
-	      delay: 10,
-	      time: 1000
-	  });
-
-		
- // Shuffle js filter and masonry
-    var Shuffle = window.Shuffle;
-    var jQuery = window.jQuery;
-
-    var myShuffle = new Shuffle(document.querySelector('.shuffle-wrapper'), {
-        itemSelector: '.shuffle-item',
-        buffer: 1
-    });
-
-    jQuery('input[name="shuffle-filter"]').on('change', function (evt) {
-        var input = evt.currentTarget;
-        if (input.checked) {
-            myShuffle.filter(input.value);
-        }
-    });
-
 })(jQuery);
+
+var form = document.getElementById('myForm');
+
+form.addEventListener('kwOnSubmit', function () {
+	// add your own custom logic :)
+	window.location.href="confirmation.html"
+});

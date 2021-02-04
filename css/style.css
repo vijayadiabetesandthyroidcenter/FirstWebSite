@@ -1012,6 +1012,7 @@ a:focus {
 
 .google-map {
   position: relative;
+  width: 50%;
 }
 
 .google-map #map {
@@ -1492,3 +1493,11 @@ a:focus {
 }
 
 /*# sourceMappingURL=maps/style.css.map */
+.logo-style
+{
+max-width: 5%;
+height: auto;
+position: absolute;
+left: 3%;
+top: 17%;
+}
