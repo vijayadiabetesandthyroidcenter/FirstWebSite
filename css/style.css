@@ -552,44 +552,45 @@ a:focus {
   background: #eff0f3;
 }
 
-.appoinment-content {
+.Appointment-content {
   position: relative;
+  height: 475px;
 }
 
-.appoinment-content img {
-  width: 85%;
+.Appointment-content img {
+  height: 100%;
+  width: 100%;
 }
 
-.appoinment-content .emergency {
+.Appointment-content .emergency {
   position: absolute;
-  content: "";
-  right: 10px;
-  left: 10px;
-  bottom: 20px;
+  width: 100%;
+  bottom: 0px;
   background: #223a66;
-  padding: 48px;
+  padding: 5px;
 }
 
-.appoinment-content .emergency h2 {
+.Appointment-content .emergency h2 {
   color: #fff;
+  text-align: center;
 }
 
-.appoinment-content .emergency i {
+.Appointment-content .emergency i {
   margin-right: 10px;
   color: rgba(255, 255, 255, 0.7);
 }
 
-.appoinment-form {
+.Appointment-form {
   margin-top: 40px;
 }
 
-.appoinment-form .form-control {
+.Appointment-form .form-control {
   background: #f4f9fc;
   height: 55px;
   border-color: rgba(0, 0, 0, 0.05);
 }
 
-.appoinment-form textarea.form-control {
+.Appointment-form textarea.form-control {
   height: auto;
 }
 
